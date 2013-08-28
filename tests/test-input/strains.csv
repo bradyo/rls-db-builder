@@ -1,0 +1,6 @@
+name,contactEmail,background,matingType,genotype,genotypeShort,comment
+WildType1,official@localhost,BY4742,MATalpha,BY4742,BY4742,
+Strain1,official@localhost,BY4742,MATalpha,gene1,gene1,
+Strain2,official@localhost,BY4742,MATalpha,gene1,gene1,
+Strain3,official@localhost,BY4742,MATalpha,gene2,gene2,
+Strain4,official@localhost,BY4742,MATalpha,gene3,gene3,

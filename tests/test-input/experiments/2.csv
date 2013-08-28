@@ -1,0 +1,4 @@
+id,reference,label,strain,media,temperature,lifespans
+1,"","WildType1 Media1","WildType1","Media1",30.0,7,8,9
+2,"1","Strain1 Media1","Strain1","Media1",30.0,21,22,23
+3,"1","Strain2 Media1","Strain2","Media1",30.0,20,21,22

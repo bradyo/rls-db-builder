@@ -1,0 +1,7 @@
+shortGenotype,media,temperature,background,matingType,pubmedId
+BY4742,Media1,30.0,BY4742,MATalpha,1
+gene1,Media1,30.0,BY4742,MATalpha,1
+gene1,Media1,15.0,BY4742,MATalpha,1
+gene2,Media1,30.0,BY4742,MATalpha,2
+BY4742,Unique Media,30.0,BY4742,MATalpha,1
+gene1,Unique Media,30.0,BY4742,MATalpha,1

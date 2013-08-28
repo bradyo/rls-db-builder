@@ -1,0 +1,10 @@
+sample key: BY4742/MATalpha/BY4742/Media1/30 => allowed
+sample key: BY4742/MATalpha/gene1/Media1/30 => allowed
+sample key: BY4742/MATalpha/gene1/Media2/30 => not allowed
+sample key: BY4742/MATalpha/gene1/Media1/15 => allowed
+sample key: BY4742/MATalpha/gene1/Media1/18 => not allowed
+sample key: BY4742/MATalpha/gene1/Media1/30 => allowed
+sample key: BY4742/MATalpha/gene2/Media1/30 => allowed
+sample key: BY4742/MATalpha/BY4742/Media1/30 => allowed
+sample key: BY4742/MATalpha/gene1/Media1/30 => allowed
+sample key: BY4742/MATalpha/gene1/Media1/30 => allowed

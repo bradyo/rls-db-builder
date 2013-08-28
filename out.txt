@@ -1,0 +1,187 @@
+truncating build_meta
+truncating cell_citation
+truncating citation
+truncating strain
+truncating experiment
+truncating sample_cell
+truncating cell
+truncating sample
+truncating comparison
+truncating across_media
+truncating across_mating_type
+sample key: BY4742/MATalpha/rpl20b/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb1/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb1/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb1/0.05% D/30 => not allowed
+sample key: BY4742/MATalpha/rpl20b/0.05% D/30 => not allowed
+sample key: BY4742/MATalpha/fob1/0.05% D/30 => not allowed
+sample key: BY4742/MATalpha/fob1/YPD/30 => allowed
+sample key: BY4742/MATalpha/fob1 sir2/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb2/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb2/0.05% D/30 => not allowed
+sample key: BY4742/MATalpha/phb2/3% Gly/30 => not allowed
+sample key: BY4742/MATalpha/BY4742/YPD/30 => allowed
+sample key: BY4742/MATalpha/BY4742/YPD/30 => allowed
+sample key: BY4742/MATalpha/BY4742/0.05% D/30 => not allowed
+sample key: BY4741/MATa/alg12/YPD/30 => allowed
+sample key: BY4742/MATalpha/BY4742/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb1/0.1% D/30 => not allowed
+sample key: BY4742/MATalpha/phb2/0.1% D/30 => not allowed
+sample key: BY4742/MATalpha/phb1/0.05% D/30 => not allowed
+sample key: BY4742/MATalpha/phb2/0.05% D/30 => not allowed
+sample key: BY4742/MATalpha/phb1/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb2/YPD/30 => allowed
+sample key: BY4742/MATalpha/phb1/0.005% D/30 => not allowed
+sample key: BY4742/MATalpha/phb2/0.005% D/30 => not allowed
+sample key: BY4742/MATalpha/phb1/0.5% D/30 => not allowed
+sample key: BY4742/MATalpha/phb2/0.5% D/30 => not allowed
+Array
+(
+    [0] => Application\Model\Comparison Object
+        (
+            [id:Application\Model\Comparison:private] => 
+            [testSample:Application\Model\Comparison:private] => Application\Model\Sample Object
+                (
+                    [id:Application\Model\Sample:private] => 
+                    [pooledBy:Application\Model\Sample:private] => genotype
+                    [label:Application\Model\Sample:private] => phb1
+                    [strainName:Application\Model\Sample:private] => 
+                    [background:Application\Model\Sample:private] => BY4742
+                    [matingType:Application\Model\Sample:private] => MATalpha
+                    [genotype:Application\Model\Sample:private] => phb1
+                    [media:Application\Model\Sample:private] => YPD
+                    [temperature:Application\Model\Sample:private] => 30
+                    [cells:Application\Model\Sample:private] => SplObjectStorage Object
+                    [lifespans:Application\Model\Sample:private] => Array
+                    [lifespansMean:Application\Model\Sample:private] => 
+                    [lifespansMedian:Application\Model\Sample:private] => 
+                    [lifespansStdev:Application\Model\Sample:private] => 
+                    [lifespansCount:Application\Model\Sample:private] => 
+                    [lifespansOmittedCount:Application\Model\Sample:private] => 
+                    [endStates:Application\Model\Sample:private] => Array
+                    [needsCellDerivedComputation:Application\Model\Sample:private] => 1
+                )
+            [referenceSample:Application\Model\Comparison:private] => Application\Model\Sample Object
+                (
+                    [id:Application\Model\Sample:private] => 
+                    [pooledBy:Application\Model\Sample:private] => genotype
+                    [label:Application\Model\Sample:private] => phb1
+                    [strainName:Application\Model\Sample:private] => 
+                    [background:Application\Model\Sample:private] => BY4742
+                    [matingType:Application\Model\Sample:private] => MATalpha
+                    [genotype:Application\Model\Sample:private] => phb1
+                    [media:Application\Model\Sample:private] => YPD
+                    [temperature:Application\Model\Sample:private] => 30
+                    [cells:Application\Model\Sample:private] => SplObjectStorage Object
+                    [lifespans:Application\Model\Sample:private] => Array
+                    [lifespansMean:Application\Model\Sample:private] => 
+                    [lifespansMedian:Application\Model\Sample:private] => 
+                    [lifespansStdev:Application\Model\Sample:private] => 
+                    [lifespansCount:Application\Model\Sample:private] => 
+                    [lifespansOmittedCount:Application\Model\Sample:private] => 
+                    [endStates:Application\Model\Sample:private] => Array
+                    [needsCellDerivedComputation:Application\Model\Sample:private] => 1
+                )
+            [percentChange:Application\Model\Comparison:private] => 
+            [ranksumU:Application\Model\Comparison:private] => 
+            [ranksumP:Application\Model\Comparison:private] => 
+        )
+    [1] => Application\Model\Comparison Object
+        (
+            [id:Application\Model\Comparison:private] => 
+            [testSample:Application\Model\Comparison:private] => Application\Model\Sample Object
+                (
+                    [id:Application\Model\Sample:private] => 
+                    [pooledBy:Application\Model\Sample:private] => genotype
+                    [label:Application\Model\Sample:private] => fob1 sir2
+                    [strainName:Application\Model\Sample:private] => 
+                    [background:Application\Model\Sample:private] => BY4742
+                    [matingType:Application\Model\Sample:private] => MATalpha
+                    [genotype:Application\Model\Sample:private] => fob1 sir2
+                    [media:Application\Model\Sample:private] => YPD
+                    [temperature:Application\Model\Sample:private] => 30
+                    [cells:Application\Model\Sample:private] => SplObjectStorage Object
+                    [lifespans:Application\Model\Sample:private] => Array
+                    [lifespansMean:Application\Model\Sample:private] => 
+                    [lifespansMedian:Application\Model\Sample:private] => 
+                    [lifespansStdev:Application\Model\Sample:private] => 
+                    [lifespansCount:Application\Model\Sample:private] => 
+                    [lifespansOmittedCount:Application\Model\Sample:private] => 
+                    [endStates:Application\Model\Sample:private] => Array
+                    [needsCellDerivedComputation:Application\Model\Sample:private] => 1
+                )
+            [referenceSample:Application\Model\Comparison:private] => Application\Model\Sample Object
+                (
+                    [id:Application\Model\Sample:private] => 
+                    [pooledBy:Application\Model\Sample:private] => genotype
+                    [label:Application\Model\Sample:private] => fob1
+                    [strainName:Application\Model\Sample:private] => 
+                    [background:Application\Model\Sample:private] => BY4742
+                    [matingType:Application\Model\Sample:private] => MATalpha
+                    [genotype:Application\Model\Sample:private] => fob1
+                    [media:Application\Model\Sample:private] => YPD
+                    [temperature:Application\Model\Sample:private] => 30
+                    [cells:Application\Model\Sample:private] => SplObjectStorage Object
+                    [lifespans:Application\Model\Sample:private] => Array
+                    [lifespansMean:Application\Model\Sample:private] => 
+                    [lifespansMedian:Application\Model\Sample:private] => 
+                    [lifespansStdev:Application\Model\Sample:private] => 
+                    [lifespansCount:Application\Model\Sample:private] => 
+                    [lifespansOmittedCount:Application\Model\Sample:private] => 
+                    [endStates:Application\Model\Sample:private] => Array
+                    [needsCellDerivedComputation:Application\Model\Sample:private] => 1
+                )
+            [percentChange:Application\Model\Comparison:private] => 
+            [ranksumU:Application\Model\Comparison:private] => 
+            [ranksumP:Application\Model\Comparison:private] => 
+        )
+    [2] => Application\Model\Comparison Object
+        (
+            [id:Application\Model\Comparison:private] => 
+            [testSample:Application\Model\Comparison:private] => Application\Model\Sample Object
+                (
+                    [id:Application\Model\Sample:private] => 
+                    [pooledBy:Application\Model\Sample:private] => genotype
+                    [label:Application\Model\Sample:private] => BY4742
+                    [strainName:Application\Model\Sample:private] => 
+                    [background:Application\Model\Sample:private] => BY4742
+                    [matingType:Application\Model\Sample:private] => MATalpha
+                    [genotype:Application\Model\Sample:private] => BY4742
+                    [media:Application\Model\Sample:private] => YPD
+                    [temperature:Application\Model\Sample:private] => 30
+                    [cells:Application\Model\Sample:private] => SplObjectStorage Object
+                    [lifespans:Application\Model\Sample:private] => Array
+                    [lifespansMean:Application\Model\Sample:private] => 
+                    [lifespansMedian:Application\Model\Sample:private] => 
+                    [lifespansStdev:Application\Model\Sample:private] => 
+                    [lifespansCount:Application\Model\Sample:private] => 
+                    [lifespansOmittedCount:Application\Model\Sample:private] => 
+                    [endStates:Application\Model\Sample:private] => Array
+                    [needsCellDerivedComputation:Application\Model\Sample:private] => 1
+                )
+            [referenceSample:Application\Model\Comparison:private] => Application\Model\Sample Object
+                (
+                    [id:Application\Model\Sample:private] => 
+                    [pooledBy:Application\Model\Sample:private] => genotype
+                    [label:Application\Model\Sample:private] => BY4742
+                    [strainName:Application\Model\Sample:private] => 
+                    [background:Application\Model\Sample:private] => BY4742
+                    [matingType:Application\Model\Sample:private] => MATalpha
+                    [genotype:Application\Model\Sample:private] => BY4742
+                    [media:Application\Model\Sample:private] => YPD
+                    [temperature:Application\Model\Sample:private] => 30
+                    [cells:Application\Model\Sample:private] => SplObjectStorage Object
+                    [lifespans:Application\Model\Sample:private] => Array
+                    [lifespansMean:Application\Model\Sample:private] => 
+                    [lifespansMedian:Application\Model\Sample:private] => 
+                    [lifespansStdev:Application\Model\Sample:private] => 
+                    [lifespansCount:Application\Model\Sample:private] => 
+                    [lifespansOmittedCount:Application\Model\Sample:private] => 
+                    [endStates:Application\Model\Sample:private] => Array
+                    [needsCellDerivedComputation:Application\Model\Sample:private] => 1
+                )
+            [percentChange:Application\Model\Comparison:private] => 
+            [ranksumU:Application\Model\Comparison:private] => 
+            [ranksumP:Application\Model\Comparison:private] => 
+        )
+)
