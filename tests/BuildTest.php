@@ -27,8 +27,8 @@ class BuildTest extends PHPUnit_Framework_TestCase
 
     public function testBuildProcess() {
         echo "building\n";
-        $this->builder = new Builder($this->config);
-        $this->builder->build();
+        $builder = new Builder($this->config);
+        $builder->build();
 
         echo "checking database\n";
         $this->checkStrainFiltering();
@@ -38,10 +38,8 @@ class BuildTest extends PHPUnit_Framework_TestCase
         $this->checkComparisonStrainPooling();
         $this->checkComparisonGenotypePooling();
 
-        // todo: check
-
-        // todo: check across media pooling
-        // todo: check across mating type pooling
+        $this->checkMatingTypeCrossReference();
+        $this->checkMediaCrossReference();
 
         echo "checking reports\n";
         // todo
@@ -114,7 +112,7 @@ class BuildTest extends PHPUnit_Framework_TestCase
         $sampleService = new SampleService($this->pdo);
         $sample = $sampleService->fetchOne(array(
             'pooled_by' => 'file',
-            'experiment.name' => '1.csv',
+            'experiment_name' => '1.csv',
             'label' => 'Strain1 Media1',
         ));
 
@@ -132,7 +130,7 @@ class BuildTest extends PHPUnit_Framework_TestCase
         $sampleService = new SampleService($this->pdo);
         $sample = $sampleService->fetchOne(array(
             'pooled_by' => 'file',
-            'experiment.name' => '1.csv',
+            'experiment_name' => '1.csv',
             'label' => 'WildType1 Media1',
         ));
         $this->assertEquals($sample['lifespans'], '10,11,12,13,14,15');
@@ -142,7 +140,7 @@ class BuildTest extends PHPUnit_Framework_TestCase
         // check that the comparison calculations are done correctly
         $comparisonService = new ComparisonService($this->pdo);
         $comparisons = $comparisonService->fetchAll(array(
-            'test_sample_pooled_by' => 'file',
+            'pooled_by' => 'file',
             'test_sample_label' => 'WildType1 Media1',
             'test_sample_media' => 'Media1',
             'test_sample_temperature' => '30.000',
@@ -163,10 +161,10 @@ class BuildTest extends PHPUnit_Framework_TestCase
         // test official file pooled comparisons
         $comparisonService = new ComparisonService($this->pdo);
         $comparisons = $comparisonService->fetchAll(array(
-            'pooledBy' => 'strain',
-            'strainName' => 'Strain1',
-            'testMedia' => 'Media1',
-            'testTemperature' => '30',
+            'pooled_by' => 'strain',
+            'test_sample_strain_name' => 'Strain1',
+            'test_sample_media' => 'Media1',
+            'test_sample_temperature' => '30',
         ));
         $this->assertEquals(count($comparisons), 1);
         $comparison = $comparisons[0];
@@ -185,6 +183,14 @@ class BuildTest extends PHPUnit_Framework_TestCase
     }
 
     private function checkComparisonGenotypePooling() {
+        // todo
+    }
+
+    private function checkMatingTypeCrossReference() {
+        // todo
+    }
+
+    private function checkMediaCrossReference() {
         // todo
     }
 }
